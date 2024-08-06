@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        p {
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.5;
+            color: #f9f2d7;
+            font-weight: bold;
+            padding-block: 10;
+        }
+        #pasan {
+            color: #f9f2d7;
+            margin-left: 50px;
+        }
+        #p1 {
+            color: blue;
+            background-color: rgb(146, 126, 126);
+
+        }
+        .pace {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            position: relative;
+            animation-name: example;
+            animation-duration: 4s;
+            animation-delay: 2s;
+        }
+        @keyframes example {
+            0%   {background-color:red; left:0px; top:0px;}
+            25%  {background-color:yellow; left:200px; top:0px;}
+            50%  {background-color:blue; left:200px; top:200px;}
+            75%  {background-color:green; left:0px; top:200px;}
+            100% {background-color:red; left:0px; top:0px;}
+        }
+    </style>
+</head>
+<body>
+   
+    <p>Hello Kavinda</p>
+    <div id="pasan" >Test Pasan</div>
+    <div id="p1">Test two</div>
+    <div class="pace"> 3rd One</div>
+</body>
+</html>

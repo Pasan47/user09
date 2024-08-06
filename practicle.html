@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer Survey Form</title>
+    <style>
+        .container {
+            background-color: aliceblue;
+            margin-left: 300px;
+            margin-right: 300px;
+        }
+        .header {
+            background-color: plum;
+        }
+        .header-text {
+            text-align: center;
+        }
+        .second-header {
+            background-color: #686868;
+        }
+        .second-header-text {
+            text-align: center;
+        }
+        .form-one {
+            margin-left: 180px;
+        }
+        .text-area {
+            margin-top: 10px;
+        }
+        .text-area-label {
+            margin-bottom: 100px;
+        }
+
+
+
+        .form-inline {  
+            display: flex;
+            flex-flow: row wrap;
+            align-items: center;
+        }
+
+        .form-inline label {
+            margin: 5px 10px 5px 0;
+        }
+
+        .form-inline input {
+            vertical-align: middle;
+            margin: 5px 10px 5px 0;
+            padding: 10px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+        }
+
+        .form-inline button {
+            padding: 10px 20px;
+            background-color: dodgerblue;
+            border: 1px solid #ddd;
+            color: white;
+            cursor: pointer;
+        }
+
+        .form-inline button:hover {
+            background-color: royalblue;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2 class="header-text">DEVELOPERS SURVEY FORM</h2>
+        </div>
+        <div class="second-header">
+            <p class="second-header-text">Thank you for taking the time to help us know the about world wide developers</p>
+        </div>
+        <div class="form-one">
+            <form class="form-inline">
+                <div>
+                    <label >Name :- </label> <input type="text">   
+                </div>
+                <br>
+                <div>
+                    <label >Email :- </label><input type="text">
+                </div>
+                <br>
+                <div>
+                    <label >Age :- </label></label><input type="text">
+                    
+                </div>
+                <br>
+                <div>
+                    <label >Nationality :- </label> 
+                </div>
+               
+                <select>
+                    <option>Sinhala</option>
+                    <option>Tamil</option>
+                </select>
+                <br>
+                <label >Developers :- 
+                    <input type="radio" id="html" name="fav_language" value="FrontEnd"><label for="html">FrontEnd</label>
+                     <input type="radio" id="html" name="fav_language" value="Backend"><label for="html">Backend</label>
+                     <input type="radio" id="html" name="fav_language" value="Fullstack"><label for="html">Fullstack</label>
+                </label>
+                <br>
+                <label >Qualification :- 
+                    <input type="checkbox"><label for="html">10+2</label>
+                    <input type="checkbox"><label for="html">Graduvate</label>
+                    <input type="checkbox"><label for="html">Degree</label>
+                </label>
+                <br>
+                <label class="text-area-label">Describe about you :- </label> <textarea class="text-area" rows="4" cols="50"></textarea>
+                <br>
+                <button>Submit</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
